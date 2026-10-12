@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222222;
+}
+
+header {
+    background-color: #dbe7f6;
+    padding: 24px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+}
+
+nav a {
+    color: #1f4e79;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 24px auto;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+.featured {
+    border: 2px solid #b8cce4;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 8px;
+    color: #666666;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #dbe7f6;
+}
+
+footer {
+    background-color: #dbe7f6;
+    padding: 16px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+footer a {
+    color: #1f4e79;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #dddddd;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    background-color: white;
+}
+
+/* Form Data Mahasiswa */
+form {
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.success-message {
+    padding: 12px 16px;
+    margin: 20px 0;
+    border: 2px solid #d85b82;
+    border-radius: 8px;
+    background-color: #ffe4ec;
+}
+
+/* CSS halaman login sesuai modul 05B */
+* {
+    box-sizing: border-box;
+}
+
+.auth-page {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    padding: 32px;
+    border: 1px solid #f3b6ca;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(216, 91, 130, 0.15);
+}
+
+.login-card h1 {
+    color: #d85b82;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-card p {
+    text-align: center;
+    color: #3d1f2b;
+    margin-bottom: 24px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.login-card label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 700;
+    color: #3d1f2b;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e8b5c6;
+    border-radius: 8px;
+    outline-color: #d85b82;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 12px 16px;
+    border: 0;
+    border-radius: 8px;
+    background: #d85b82;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-card button:hover {
+    background: #bd456c;
+}
+
+.message {
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    margin-bottom: 16px;
+}
+
+.message.error {
+    border-color: #e57373;
+    color: #c62828;
+}
